@@ -1,0 +1,22 @@
+version:  '3'
+
+services:
+  ambavkaragro_web_app:
+    build: .
+    env_file:
+      - .env
+    volumes:
+      - static_vol:/ambavkaragro_web/web/static
+    ports:
+      - "8000:8000"
+  
+  nginx: 
+    build: ./nginx
+    volumes:
+      - static_vol:/ambavkaragro_web/web/static
+    ports:
+      - "80:80"
+    depends_on:
+      - ambavkaragro_web_app
+volumes:
+  static_vol:

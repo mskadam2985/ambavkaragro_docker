@@ -1,0 +1,45 @@
+{% extends 'web/index.html'%}
+{% load static %}
+
+
+{% block  content %}
+
+<main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h3>About</h3>
+          <ol>
+            <li><a href="{% url 'home' %}">Home</a></li>
+            <li>About</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+<!-- ======= About Section ======= -->
+<section id="about" class="about">
+    <div class="container">
+
+      <div class="row content">
+        <div class="col-lg-5">
+          <h2>Mission</h2>
+          
+        </div>
+        <div class="col-lg-6 pt-4 pt-lg-0">
+          <ul>
+            <li><i class="ri-check-double-line"></i> To create a Healthy, literate and Prosperous Rural India.</li>
+            <li><i class="ri-check-double-line"></i> Build on our stellar legacy as a market leader & expand our unique range of quality products & solutions globally.</li>
+            <li><i class="ri-check-double-line"></i> Grow the Ambavkar Agro Family as a highly skilled, trusted and motivated team, having a clear focus on the future and a singular commitment to excellence.</li>        
+          </ul>
+          
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End About Section -->
+</main>
+{%endblock%}

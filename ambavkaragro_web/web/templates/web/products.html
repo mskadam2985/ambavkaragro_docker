@@ -1,0 +1,111 @@
+{% extends 'web/index.html'%}
+{% load static %}
+
+
+{% block  content %}
+
+<main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h3>Products</h3>
+          <ol>
+            <li><a href="{% url 'home' %}">Home</a></li>
+            <li>Products</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+<!-- ======= About Section ======= -->
+<section id="about" class="about">
+    <div class="container">
+
+      <div class="row content">
+        <div class="col-lg-5">
+          <h4>Alphonso Mango</h4>
+          <img src="{%static 'web/img/products/product_1.jpg' %}" alt="Reponsive Image" class="img-fluid rounded">
+          
+        </div>
+        <div class="col-lg-5 pt-4 pt-lg-0">
+            <br>
+            <br>
+          <p>
+            The Alphonso mango was the first product of Ambavkar Agro which was started business in 2015 to sell in domestic market. The Alphonso Mango is a seasonal fruit, available in mid-April through the end of May. The fruits generally weigh between 150 and 300 grams (5.3 and 10.6 oz), have a rich, creamy, tender texture and delicate, non-fibrous, juicy pulp. The farm of alphonso mangos is origin in dist. Ratnagiri (Kokan) Maharashtra States.
+          </p>
+          
+        </div>
+      </div>
+
+
+      <div class="row content">
+        
+        <div class="col-lg-5">
+            <br>
+            <br>
+          <h4>Kutch Kesar Mango</h4>
+          <img src="{%static 'web/img/products/product_2.jpg' %}" alt="Reponsive Image" class="img-fluid rounded" >
+          
+        </div>
+        <div class="col-lg-5 pt-4 pt-lg-0">
+            <br>
+            <br>
+            <br>
+            <br>
+          <p>
+            The Gujarat Kutch kesar mango was the second product of ambavkar agro which was started business in 2017 to sell in domestic market. The Kesar Mango is the queen of mangoes widely grown in the Gujarat State of India. It has a unique sweet taste. Kesar is characterized by its golden colour with green overtones. Mangoes are excellent source of vitamins A, C and Fiber. The kesar mango is seasonal fruit, available in end of May. The Kesar Mango Farm is origin in dist. Kutch in Gujarat States.
+          </p>
+          
+        </div>
+      </div>
+
+
+      <div class="row content">
+        
+        <div class="col-lg-5">
+            <br>
+            <br>
+          <h4>Custard Apple </h4>
+          <img src="{%static 'web/img/products/product_3.jpg' %}" alt="Reponsive Image" class="img-fluid rounded" >
+          
+        </div>
+        <div class="col-lg-5 pt-4 pt-lg-0">
+            <br>
+            <br>
+            <br>
+            <br>
+          <p>
+            Custard apple (Annona squamosa) is also known as Sita-phal in India, is delicious dry land fruit. The fruit are low in saturated fat, cholesterol, and sodium and high in vitamin c, manganese, iron and potassium. Their nutritional value makes them ideal for maintaining optimum health. Custard apple (Sitaphal) flourishes best in dry and hot climate. The fruit is available between August and November. The Custard Apple is origin in Dist. Solapur & Pune of Maharashtra States.
+          </p>
+          
+        </div>
+      </div>
+
+      <div class="row content">
+        
+        <div class="col-lg-5">
+            <br>
+            <br>
+          <h4>Grapes </h4>
+          <img src="{%static 'web/img/products/product_4.jpg' %}" alt="Reponsive Image" class="img-fluid rounded" >
+          
+        </div>
+        <div class="col-lg-5 pt-4 pt-lg-0">
+            <br>
+            <br>
+            <br>
+            <br>
+          <p>
+            The Grape is a fruit that grows in tight clusters. It has a white or purple flesh of sweet taste, eaten raw or in juice, although it is chiefly used for making wine. They are also used to make preserves. It contains various minerals and vitamins, and it is considered to be antioxidant and anti-carcinogenic. The fruit is available in February and end in March. The grapes are origin in dist. Nashik of Maharashtra States.
+          </p>
+          
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End About Section -->
+</main>
+{%endblock%}

@@ -1,0 +1,46 @@
+{% extends 'web/index.html'%}
+{% load static %}
+
+
+{% block  content %}
+
+<main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h3>About</h3>
+          <ol>
+            <li><a href="{% url 'home' %}">Home</a></li>
+            <li>About</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+<!-- ======= About Section ======= -->
+<section id="about" class="about">
+    <div class="container">
+
+      <div class="row content">
+        <div class="col-lg-5">
+          <h2>Vision</h2>
+          
+        </div>
+        <div class="col-lg-6 pt-4 pt-lg-0">
+          <ul>
+            <li><i class="ri-check-double-line"></i> Empowering farmers everywhere, with our versatile range of agricultural Next Practices, Aries aims to be a global leader in specialised, sustainable agricultural inputs.</li>
+            <li><i class="ri-check-double-line"></i> To be a value-based company with a leadership role in Domestic as well as International markets and continuously strive to create value for its stakeholders.</li>
+            <li><i class="ri-check-double-line"></i> Our products promote not only root growth, but also provide favourable conditions to roots to breath and water for effective farming and yield</li>
+            <li><i class="ri-check-double-line"></i> Since our products are Eco-friendly, it means there are greater environmental benefits at large.</li>
+          </ul>
+          
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End About Section -->
+</main>
+{%endblock%}

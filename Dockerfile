@@ -1,6 +1,6 @@
 FROM python:3.10.13-bullseye
 WORKDIR /ambavkaragro_web
-COPY ./ambavkaragro_docker ./
+COPY ./ambavkaragro_web ./
 
 RUN pip install --upgrade pip --no-cache-dir
 
